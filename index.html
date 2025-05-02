@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day5@100</title>
+    <style>
+        fieldset {
+          background-color: #eeeeee;
+        }
+        
+        legend {
+          background-color: gray;
+          color: white;
+          padding: 5px 10px;
+        }
+        
+        input {
+          margin: 5px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <form >
+        <fieldset>
+            <legend>Person Details</legend>
+            <table>
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" placeholder="Eg: Nagesh" required></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" placeholder="Eg: R" required></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td><input type="tel" placeholder="Eg: +91 9099632036" required></td>
+                </tr>
+                <tr>
+                    <td><label >Password</label></td>
+                    <td><input type="password" placeholder="Enter Your Password" required></td>
+                </tr>
+                <tr>
+                    <td><label >Confirm Password</label></td>
+                    <td><input type="password"  placeholder="Enter ur confirm Password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" placeholder="Enter Your Email" required></td>
+                </tr>
+                <tr>
+                    <td><label>Age</label></td>
+                    <td><input type="number" placeholder="Eg:21" required></td>
+                </tr>
+                <tr>
+                    <td><label>DOB</label></td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td><label >Gender</label></td>
+                    <td>
+                        <input type="radio">Male
+                        <input type="radio">Female
+                        <input type="radio">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select >
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>CHINA</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label >Course Mode</label></td>
+                    <td><input type="checkbox">Online 
+                        <input type="checkbox">Offline
+                    </td>
+                </tr>
+                <tr>
+                    <td><label >Courses</label></td>
+                    <td>
+                        <select required >
+                            <option>Python Full Stack</option>
+                            <option>Java Full Stack</option>
+                            <option>Web Full Stack</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="Reset"></td>
+                </tr>
+                <tr>
+                    <td><input type="Submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
